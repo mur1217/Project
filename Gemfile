@@ -24,6 +24,8 @@ gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'devise','~> 4.2'
 gem "paperclip", "~> 5.0.0"
 gem 'masonry-rails', '~> 0.2.4'
+gem 'le'
+gem 'sinatra-logentries'
 
 group :development, :test do
   gem 'byebug', platform: :mri
