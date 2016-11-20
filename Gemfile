@@ -9,7 +9,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
