@@ -24,6 +24,7 @@ gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'devise','~> 4.2'
 gem "paperclip", "~> 5.0.0"
 gem 'masonry-rails', '~> 0.2.4'
+gem 'rails_12factor', '~> 0.0.3'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
@@ -34,4 +35,4 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'rails_12factor', '~> 0.0.3', group: :production
+
