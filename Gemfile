@@ -34,4 +34,4 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'rails_12factor', group: :production
+gem 'rails_12factor', '~> 0.0.3', group: :production
